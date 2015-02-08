@@ -1,0 +1,12 @@
+#popup{
+
+width:458px; 
+height:320px;
+margin: auto;
+position: absolute;
+top: 0; left: 0; bottom: 0; right: 0;  
+box-shadow: 6px 6px 8px #888888;
+background-color:white;
+visibility:visible;
+
+}

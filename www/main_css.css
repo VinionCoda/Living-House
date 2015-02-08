@@ -1,0 +1,414 @@
+	body {
+    background-image: url("pic/bg_img.jpg");
+    }
+
+	img{
+	cursor: pointer; 
+	cursor: hand;  
+	}   	
+
+	p{	
+	text-align:center;		
+	position: absolute;	
+	}
+	
+	form{
+	font-size: 120%;
+	text-align:left;
+	}
+	
+	select {
+	font-size: 90%;	
+	}
+	
+	/* window bg image */
+
+	.window{
+	background-image:url("pic/window.png");
+	background-size:  800px 600px;     
+    background-repeat: no-repeat;
+    background-position: center center; 
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;	
+	}
+	
+	#window_index{
+	background-size:  800px 600px;     
+  	}
+	
+	#window_acc{
+	background-size:  1024px 768px;     
+    }
+	
+	#window_user{
+	background-size:  800px 600px;     
+    }
+	
+	
+	/* container formatting */
+	#index{
+	width:700px; 
+	height:470px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	}
+	   
+    #acc{
+	background-color:#ffffff;
+	width:900px; 
+	height:600px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;   
+	}  
+	
+	
+	/* table format settings */
+	table{	
+	background: -webkit-linear-gradient(180deg, white, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, white, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, white, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, white, #e6e6e6); /* Standard syntax (must be last) */
+	background-size: 10px 10px;	
+	text-align:center;	
+	}
+	
+	#main_table{
+	margin-top: 40px;
+	padding-top:40px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 350px;
+	width: 100%;
+	}
+	
+	#main_table_sched{
+	height: 200px;
+	width: 100%;
+	background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+	background-size: 10px 10px;
+	}
+	
+	
+	#main_table_set{
+	height: 150px;
+	width: 100%;
+	background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+	background-size: 10px 10px;
+	}
+	
+	#main_table_room{
+	height: 150px;
+	width: 100%;
+	background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+	background-size: 10px 10px;
+	}
+	
+	#main_user_table{
+		margin-top: 37px;
+		height: 150px;
+		width: 100%;
+		background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+		background-size: 10px 10px;
+	}
+	
+	#acc_table{
+		border-spacing: 10px;
+		width: 100%;
+		background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+		background-size: 10px 10px;
+	}
+	
+	#title_table{
+		width: 100%;
+		margin-top:70px;
+	}
+
+	/* table topple settings */
+	.acc_tr{
+	width: 125px;
+	height: 35px;
+	}
+	
+	.acc_th{
+	height: 30px;
+	}
+	
+	.h_tag{
+	max-height:5px;
+	background-color : #1278C3;
+	color: #ffffff;	
+	width: 25%;
+	}
+
+	
+	.access_h_tag{
+	max-height:5px;
+	background-color : #1278C3;
+	color: #ffffff;	
+	width: 17%;
+	}
+	
+	.access_h_tag1{
+	max-height:5px;
+	background-color : #1278C3;
+	color: #ffffff;	
+	width: 14%;
+	}
+	
+	
+	.access_h_tag2{
+	max-height:5px;
+	background-color : #1278C3;
+	color: #ffffff;	
+	width: 8%;
+	}
+
+	.s_tag{
+	width: 80px;
+	border: 2px solid #808080;
+	border-radius: 8px;
+	}
+		
+	.s_tag:hover{
+	box-shadow: 4px 4px 5px #888888;
+	border: 2px solid #9ecaed;
+	background-color: #D1CFBB;
+	}
+		
+	.l_tag{
+	width: 120px;
+	border: 2px solid #808080;
+	border-radius: 8px;
+	}
+	
+	.l_tag:hover{
+	border: 2px solid #9ecaed;
+	box-shadow: 4px 4px 5px #888888;
+	background-color: #D1CFBB;
+	}
+	
+		
+	.l_tag2{
+	width: 30px;
+	border: 2px solid #808080;
+	background-color: #E2662F;
+	border-radius: 8px;
+	}
+	
+	.l_tag2:hover{
+		border: 2px solid #9ecaed;
+		box-shadow: 4px 4px 5px #888888;
+		background-color: #D1CFBB;
+	}
+	
+	.b_tag{
+		width:25%;
+		border-radius: 8px;
+		background-color: #E2662F;
+		font-size: 20px;
+	}
+	
+	.b_tag:hover{
+	box-shadow: 4px 4px 5px #888888;
+	border: 2px solid #808080;
+	background-color: #D1CFBB;
+	}
+	
+	/* Form formatting */
+	
+	.click {
+	background-color:#E2662F ;
+    border: 5px solid #ForestGreen ;
+    color: #fff;    
+    padding: 10px 20px;
+    border-radius: 3px;
+	}
+	
+	.click:hover {
+	background-color: #278CD0;
+   	border: 10px solid #DodgerBlue ;
+	}
+
+	.click:active {
+	background-color:ForestGreen ;
+    border: 10px solid #DarkOrange ;
+	}   
+
+	.text {	
+		font-size:80%;
+		border-radius: 5px;
+	}
+	
+	
+	#popup{
+		width:458px; 
+		height:320px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;  
+		box-shadow: 6px 6px 8px #888888;
+		background-color:white;
+		visibility: hidden;
+	}
+	
+	#div_border{
+		margin-top: 30px;
+		height: 350px;
+		/*border: 2px solid #1E90FF;*/
+	}
+	
+	
+	#home{
+		height:31px;
+		width: 30px;
+		margin-top:10px;
+		margin-left:10px;
+		margin-bottom:0px;
+	}
+	
+	.main_title{
+		margin-top: 0px;
+		margin-left: 260px;
+		font-size: 40px;
+		color: #808080;
+	}
+	
+	#home_title{
+		margin-top: 20px;
+		margin-left: 60px;
+		font-size: 40px;
+		color: #E2662F;;
+	}
+	
+	
+	
+	#msWindow{
+		background-image:url("pic/window.png");
+		background-size:  800px 600px;     
+		background-repeat: no-repeat;
+		background-position: center center; 
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0;		
+	}
+	
+	#whiteBox{
+		background-color:#ffffff;
+		width:695px; 
+		height:460px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0; 
+		background: -webkit-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(180deg, #FACA70, #e6e6e6); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(180deg, #FACA70, #e6e6e6); /* Standard syntax (must be last) */
+		background-size: 10px 10px;
+	} 
+	
+	#whiteBox2{
+		background-color:#ffffff;
+		width:695px; 
+		height:460px;
+		margin: auto;
+		position: absolute;
+		top: 0; left: 0; bottom: 0; right: 0; 
+		background: -webkit-linear-gradient(180deg, white, #e6e6e6); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(180deg, white, #e6e6e6); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(180deg, white, #e6e6e6); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(180deg, white, #e6e6e6); /* Standard syntax (must be last) */
+		background-size: 10px 10px;
+	} 
+	
+	
+	.main_td{
+		width:25%;
+		height: 30px;
+		font-size: 20px;
+	}	
+	
+	.sel{
+		background-color: #C8C8C8;
+	}
+	
+	.label{
+		float:left;
+		height:35px;
+		width:265px;
+		margin-left:20px;
+	}
+	
+	.formControl{
+	
+		height:37px;
+		width:300px;
+		overflow: auto;
+	}
+	
+	.formControl2{
+		height:45px;
+		width:300px;
+		overflow: auto;
+		margin-left:20px;
+	}
+	
+	.newLines{
+	clear:both;
+	height:15px;
+	}
+	
+	#heading{
+		color: #278CD0;
+		margin-top:20px;
+		margin-left:20px;
+		font-size: 30px;
+	}
+	
+	#intellep{
+		margin-top:50px;
+		padding-left:20px;
+		padding-right:20px;
+		text-align: justify;
+		margin-bottom: 20px;
+	}
+	
+	
+	.intellep2{
+		margin-top:20px;
+		padding-left:20px;
+		padding-right:20px;
+		margin-bottom: 20px;
+		overflow: auto;
+	}
+	
+	.mainTblPad{
+		padding-left:0px;
+		text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
